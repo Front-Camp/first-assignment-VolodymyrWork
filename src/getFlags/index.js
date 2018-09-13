@@ -7,6 +7,13 @@
  */
 const getFlags = arr => {
   /* your logic here...*/
+var tmpArray = []
+arr.forEach(function(element)){
+		tmpArray.concat(element)
+	}
+
+return tmpArray
+
 };
 
 export default getFlags;

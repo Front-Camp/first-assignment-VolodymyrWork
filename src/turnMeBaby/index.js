@@ -9,6 +9,9 @@
  */
 const turnMeBaby = str => {
   /* your logic here...*/
+  var charArray = str.split("")
+  var reversed = charArray.reverse()
+  return reversed.join("")
 };
 
 export default turnMeBaby;
